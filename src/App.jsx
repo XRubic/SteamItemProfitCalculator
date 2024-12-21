@@ -20,6 +20,7 @@ const CURRENCY_RATES = {
 };
 
 const App = () => {
+  console.log('App component rendering');
   const [skinportPrice, setSkinportPrice] = useState('');
   const [steamPrice, setSteamPrice] = useState('');
   const [currency, setCurrency] = useState('UAH');
